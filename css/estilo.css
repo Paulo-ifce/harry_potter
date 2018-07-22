@@ -1,0 +1,42 @@
+.logo{
+   width: 200px;;
+}
+.foto{
+    box-shadow: 3px 3px 3px #AAA;
+}
+.padding-15{
+    padding: 15px;
+}
+.meu_link{
+    color:#AAA;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    border-radius: 5%;
+    margin-right:10px;
+}
+.meu_link:hover{
+    background-color:#BBB !important;
+    color:white !important;
+}
+.titulo{
+    color:#AAA;
+    font-family: 'Chela One', cursive;
+    font-size: 2.5em;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    color:#444;
+}
+.rodape{
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    background-color:#EFEFEF;
+    border-radius: 2%;
+    border: 1px solid #DDD;
+    padding:30px 10px;
+    text-align:center;
+     color:#444;
+}
