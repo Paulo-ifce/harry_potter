@@ -19,6 +19,10 @@ angular.module('roteamento',['ngRoute'])
         templateUrl:'templates/casa.html',
         controller:'casaController'
     })
+    .when('/sobre',{
+        templateUrl:'templates/sobre.html',
+        controller:'meuController'
+    })
     .otherwise({
         redirectTo:'/',
         templateUrl:'templates/home.html',

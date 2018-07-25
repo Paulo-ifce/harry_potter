@@ -17,8 +17,11 @@ autor: Paulo Higor Tavares Freire
     <!--ANGULAR ROUT-->
      <script src="https://code.angularjs.org/1.7.2/angular-route.js"></script>
      <!--APP.JS-->
+    
      <script src="js/app.js"></script>
+     <script src="js/controllers/meu-controller.js"></script>
      <script src="js/services/harry-service.js"></script>
+     
     <!--JQUERY-->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
     <!--GARANTINDO FUNCIONAMENTO DO BOOTSTRAP-->
@@ -48,7 +51,7 @@ autor: Paulo Higor Tavares Freire
                     <li class="nav-item" ng-controller="homeController"><a class="meu_link" ng-click="goHome()">Home</a></li>
                     <li class="nav-item"><a class="meu_link">Livros</a></li>
                     <li class="nav-item" ng-controller="casaController"><a class="meu_link" ng-click="getCasa()">Casas de Hogwarts</a></li>
-                    <li class="nav-item"><a class="meu_link">Sobre</a></li>
+                    <li class="nav-item" ng-controller="meuController"><a class="meu_link" ng-click="getDados()">Sobre</a></li>
                 </ul>
             </nav>
         </header>
