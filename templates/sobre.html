@@ -1,8 +1,17 @@
 <div> 
-    <table class="table table-default">
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Casa</th>
+            <th>Escola</th>
+            
+        </tr>
         <tr ng-repeat="linha in alunos">
+            <td>{{linha._id}}</td>
             <td>{{linha.name}}</td>
             <td>{{linha.house}}</td>
+            <td>{{linha.school}}</td>
         </tr>
     </table>
 </div>
